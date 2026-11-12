@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfólio de Michael Nunes — Desenvolvedor Front-end. Trajetória, habilidades, experiência profissional e o projeto Goagendy.">
+    <title>Michael Nunes | Portfólio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Sora:wght@600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="icon" type="image/jpeg" href="assets/images/michael-nunes.jpg">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Navegação -->
+    <header class="topo">
+        <nav class="navegacao">
+            <a href="#inicio" class="logo">Michael<span>.dev</span></a>
+            <ul class="menu" id="menu">
+                <li><a href="#inicio" class="menu-link">Início</a></li>
+                <li><a href="#sobre" class="menu-link">Sobre mim</a></li>
+                <li><a href="#habilidades" class="menu-link">Habilidades</a></li>
+                <li><a href="#experiencia" class="menu-link">Experiência</a></li>
+                <li><a href="#projetos" class="menu-link">Projetos</a></li>
+                <li><a href="#contato" class="menu-link">Contato</a></li>
+            </ul>
+            <div class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" role="button" tabindex="0">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Início -->
+        <section id="inicio" class="hero">
+            <div class="hero-grid">
+                <div class="hero-conteudo reveal">
+                    <p class="hero-saudacao">Olá, eu sou</p>
+                    <h1>Michael <span>Nunes</span></h1>
+                    <h2 class="hero-cargo">Desenvolvedor <span class="texto-gradiente">Front-end</span></h2>
+                    <p class="hero-lema">Transformando ideias em experiências digitais.</p>
+                    <p class="hero-descricao">
+                        Formado em <strong>Tecnologia da Informação</strong> pela <strong>Estácio</strong>.
+                    </p>
+                    <div class="hero-botoes">
+                        <a href="assets/files/curriculo-michael-nunes.pdf" download class="btn btn-primario">
+                            <i class="fas fa-download"></i> Baixar meu currículo
+                        </a>
+                        <a href="#projetos" class="btn btn-secundario"><i class="fas fa-folder-open"></i> Conheça meus projetos</a>
+                        <a href="#contato" class="btn btn-secundario"><i class="fas fa-paper-plane"></i> Entre em contato</a>
+                    </div>
+                </div>
+                <div class="hero-foto reveal">
+                    <img src="assets/images/michael-nunes.jpg" alt="Foto profissional de Michael Nunes" width="420" height="420">
+                </div>
+            </div>
+            <div class="hero-fundo" aria-hidden="true"></div>
+        </section>
+
+        <!-- Sobre mim -->
+        <section id="sobre" class="secao">
+            <h2 class="secao-titulo reveal">Sobre <span>mim</span></h2>
+            <div class="sobre-grid">
+                <div class="card reveal">
+                    <h3><i class="fas fa-user-graduate icone"></i> Trajetória</h3>
+                    <p>
+                        Minha carreira começou na operação — como operador na Atento — e evoluiu, passo a passo,
+                        até a supervisão de operações. Ao longo do caminho, passei por empresas como
+                        <strong>DASS/Nike</strong>, atuando em atendimento e processos operacionais, e pelo
+                        <strong>segmento de saúde</strong>, onde liderei equipes como CRC, gerenciando pessoas,
+                        rotinas e qualidade no atendimento.
+                    </p>
+                    <p>
+                        Em paralelo, sempre fui movido por tecnologia. Hoje curso <strong>Tecnologia da
+                        Informação</strong> na <strong>Estácio</strong> e atuo no desenvolvimento de soluções
+                        front-end, unindo a experiência de gestão que acumulei com a capacidade de transformar
+                        ideias em produtos reais.
+                    </p>
+                </div>
+                <div class="sobre-lateral">
+                    <div class="card reveal">
+                        <h3><i class="fas fa-bullseye icone"></i> Objetivos</h3>
+                        <ul class="lista-check">
+                            <li>Crescer como desenvolvedor Front-end</li>
+                            <li>Criar produtos digitais que resolvem problemas reais</li>
+                            <li>Unir tecnologia e gestão de pessoas</li>
+                            <li>Seguir evoluindo o projeto Goagendy</li>
+                        </ul>
+                    </div>
+                    <div class="card reveal">
+                        <h3><i class="fas fa-handshake icone"></i> Diferenciais</h3>
+                        <ul class="lista-check">
+                            <li>Liderança de equipes e visão de processo</li>
+                            <li>Comunicação e atendimento ao cliente</li>
+                            <li>Capacidade de execução e resolver problemas</li>
+                            <li>Aprendizado contínuo em tecnologia</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Habilidades -->
+        <section id="habilidades" class="secao secao-alternada">
+            <h2 class="secao-titulo reveal">Habi<span>lidades</span></h2>
+            <div class="habilidades-grid">
+                <div class="habilidade-card reveal">
+                    <i class="fab fa-html5" style="color:#e44d26"></i>
+                    <h3>HTML</h3>
+                    <p>Estruturação semântica de páginas web</p>
+                    <div class="barra"><span style="width:80%"></span></div>
+                    <small>Intermediário</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fab fa-css3-alt" style="color:#264de4"></i>
+                    <h3>CSS</h3>
+                    <p>Layouts responsivos, Flexbox e Grid</p>
+                    <div class="barra"><span style="width:75%"></span></div>
+                    <small>Intermediário</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fab fa-js" style="color:#f7df1e"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interatividade e lógica aplicada ao front-end</p>
+                    <div class="barra"><span style="width:60%"></span></div>
+                    <small>Em evolução</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fab fa-react" style="color:#61dafb"></i>
+                    <h3>React</h3>
+                    <p>Componentes e interfaces modernas</p>
+                    <div class="barra"><span style="width:50%"></span></div>
+                    <small>Iniciante / estudando</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fab fa-git-alt" style="color:#f14e32"></i>
+                    <h3>Git / GitHub</h3>
+                    <p>Versionamento e trabalho colaborativo</p>
+                    <div class="barra"><span style="width:65%"></span></div>
+                    <small>Intermediário</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fas fa-file-excel" style="color:#21a366"></i>
+                    <h3>Excel</h3>
+                    <p>Planilhas, controle e organização de dados</p>
+                    <div class="barra"><span style="width:80%"></span></div>
+                    <small>Intermediário</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fas fa-file-word" style="color:#2b7cd3"></i>
+                    <h3>Word</h3>
+                    <p>Documentação e produção de relatórios</p>
+                    <div class="barra"><span style="width:85%"></span></div>
+                    <small>Avançado</small>
+                </div>
+                <div class="habilidade-card reveal">
+                    <i class="fas fa-users" style="color:#a78bfa"></i>
+                    <h3>Gestão de Pessoas</h3>
+                    <p>Liderança, treinamento e coordenação de equipes</p>
+                    <div class="barra"><span style="width:90%"></span></div>
+                    <small>Avançado — vivência real</small>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experiência -->
+        <section id="experiencia" class="secao">
+            <h2 class="secao-titulo reveal">Experiência <span>Profissional</span></h2>
+            <div class="linha-tempo">
+                <div class="timeline-item reveal">
+                    <div class="timeline-ponto"></div>
+                    <div class="card timeline-card">
+                        <span class="tag">Liderança</span>
+                        <h3>Líder de CRC — Segmento de Saúde</h3>
+                        <p class="periodo">Gestão de equipes e processos</p>
+                        <p>
+                            Liderança de equipe no setor de CRC, com foco em gestão de pessoas, atendimento,
+                            organização de rotinas e melhoria contínua de processos.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-ponto"></div>
+                    <div class="card timeline-card">
+                        <span class="tag">Operações</span>
+                        <h3>Operador → Supervisor de Operações — Atento</h3>
+                        <p class="periodo">Trajetória de crescimento interno</p>
+                        <p>
+                            Iniciei como operador e, por resultados e dedicação, evoluí até a supervisão de
+                            operações, coordenando times e indicadores de desempenho.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-ponto"></div>
+                    <div class="card timeline-card">
+                        <span class="tag">Atendimento</span>
+                        <h3>DASS / Nike</h3>
+                        <p class="periodo">Experiência operacional</p>
+                        <p>
+                            Atuação em funções operacionais e atendimento ao cliente, desenvolvendo comunicação,
+                            disciplina e foco em resultado.
+                        </p>
+                    </div>
+                </div>
+                <div class="timeline-item reveal">
+                    <div class="timeline-ponto"></div>
+                    <div class="card timeline-card">
+                        <span class="tag tag-tech">Formação</span>
+                        <h3>Tecnologia da Informação — Estácio</h3>
+                        <p class="periodo">Graduação em andamento</p>
+                        <p>
+                            Formação aplicada em tecnologia, fundamentos de programação, redes e desenvolvimento
+                            de sistemas — base para minha transição definitiva para a área de tecnologia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projetos -->
+        <section id="projetos" class="secao secao-alternada">
+            <h2 class="secao-titulo reveal">Pro<span>jetos</span></h2>
+
+            <!-- Destaque: Goagendy -->
+            <article class="projeto-destaque card reveal">
+                <div class="projeto-info">
+                    <span class="tag tag-destaque"><i class="fas fa-star"></i> Projeto principal</span>
+                    <h3>Goagendy — Plataforma SaaS de Agendamento Online</h3>
+                    <p>
+                        Sou um dos idealizadores da <strong>Goagendy</strong>, uma plataforma SaaS de agendamento
+                        online criada para simplificar o dia a dia de negócios que dependem de horários:
+                        salões, clínicas, estúdios e prestadores de serviço.
+                    </p>
+                    <h4>O problema que resolve</h4>
+                    <p>
+                        Agendamentos feitos por WhatsApp e caderno geram conflitos de horário, esquecimentos,
+                        faltas sem aviso e retrabalho. A Goagendy centraliza tudo em um só lugar: agenda
+                        organizada, horários disponíveis em tempo real, confirmações e redução de no-shows.
+                    </p>
+                    <h4>Minhas contribuições</h4>
+                    <ul class="lista-check">
+                        <li>Concepção da ideia e definição do produto junto ao time</li>
+                        <li>Participação no desenvolvimento da interface (front-end)</li>
+                        <li>Validação de fluxos de uso com base na minha experiência com atendimento e processos</li>
+                        <li>Testes, ajustes e evolução contínua da plataforma</li>
+                    </ul>
+                    <p class="projeto-tecnologias">
+                        <strong>Tecnologias:</strong> JavaScript · React · HTML · CSS · Git/GitHub · Arquitetura SaaS
+                    </p>
+                    <div class="hero-botoes">
+                        <a href="https://goagendy.com" target="_blank" rel="noopener" class="btn btn-primario">
+                            <i class="fas fa-arrow-up-right-from-square"></i> Conhecer o Goagendy
+                        </a>
+                        <a href="https://github.com/mygod10" target="_blank" rel="noopener" class="btn btn-secundario">
+                            <i class="fab fa-github"></i> Ver no GitHub
+                        </a>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Outros projetos -->
+            <div class="projetos-grid">
+                <article class="card projeto-card reveal">
+                    <div class="projeto-icone"><i class="fas fa-code"></i></div>
+                    <h3>Portfólio Pessoal</h3>
+                    <p>Este site — meu currículo e portfólio online, construído com HTML, CSS e JavaScript puros,
+                        com layout responsivo e animações.</p>
+                    <div class="tags-tecnologias"><span>HTML</span><span>CSS</span><span>JavaScript</span></div>
+                    <a href="https://github.com/mygod10/meu-curriculo" target="_blank" rel="noopener" class="link-projeto">
+                        Ver código <i class="fab fa-github"></i>
+                    </a>
+                </article>
+                <article class="card projeto-card reveal">
+                    <div class="projeto-icone"><i class="fas fa-flask"></i></div>
+                    <h3>Estudos e Experimentos</h3>
+                    <p>Projetos de estudo em front-end: componentes React, layouts responsivos e práticas de
+                        versionamento com Git — em constante evolução no meu GitHub.</p>
+                    <div class="tags-tecnologias"><span>React</span><span>JavaScript</span><span>Git</span></div>
+                    <a href="https://github.com/mygod10?tab=repositories" target="_blank" rel="noopener" class="link-projeto">
+                        Ver repositórios <i class="fab fa-github"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Contato -->
+        <section id="contato" class="secao">
+            <h2 class="secao-titulo reveal">Con<span>tato</span></h2>
+            <p class="contato-intro reveal">
+                Vamos conversar? Estou aberto a oportunidades, parcerias e trocas de experiência em tecnologia.
+            </p>
+            <div class="contato-grid">
+                <a href="https://github.com/mygod10" target="_blank" rel="noopener" class="card contato-card reveal">
+                    <i class="fab fa-github"></i>
+                    <div>
+                        <h3>GitHub</h3>
+                        <p>github.com/mygod10</p>
+                    </div>
+                </a>
+                <a href="mailto:maykon.nunes30@gmail.com" class="card contato-card reveal">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>E-mail</h3>
+                        <p>maykon.nunes30@gmail.com</p>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/michael-nunes-6910631b2/" target="_blank" rel="noopener" class="card contato-card reveal">
+                    <i class="fab fa-linkedin"></i>
+                    <div>
+                        <h3>LinkedIn</h3>
+                        <p>michael-nunes</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© <span id="ano"></span> Michael Nunes · Desenvolvido com dedicação e café ☕</p>
+        <div class="rodape-links">
+            <a href="https://github.com/mygod10" target="_blank" rel="noopener" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/michael-nunes-6910631b2/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:maykon.nunes30@gmail.com" aria-label="E-mail"><i class="fas fa-envelope"></i></a>
+        </div>
+    </footer>
+
+    <script>
+        // Ano automático no rodapé
+        document.getElementById('ano').textContent = new Date().getFullYear();
+
+        // Menu mobile
+        const toggle = document.getElementById('menuToggle');
+        const menu = document.getElementById('menu');
+        function alternarMenu() {
+            menu.classList.toggle('aberto');
+            toggle.setAttribute('aria-expanded', menu.classList.contains('aberto'));
+        }
+        toggle.addEventListener('click', alternarMenu);
+        toggle.addEventListener('keydown', (e) => {
+            if (e.key === 'Enter' || e.key === ' ') { e.preventDefault(); alternarMenu(); }
+        });
+        // Fecha o menu ao clicar em um link
+        document.querySelectorAll('.menu-link').forEach(link =>
+            link.addEventListener('click', () => menu.classList.remove('aberto'))
+        );
+
+        // Animações de entrada (reveal)
+        const observador = new IntersectionObserver((entradas) => {
+            entradas.forEach(entrada => {
+                if (entrada.isIntersecting) {
+                    entrada.target.classList.add('visivel');
+                    observador.unobserve(entrada.target);
+                }
+            });
+        }, { threshold: 0.12 });
+        document.querySelectorAll('.reveal').forEach(el => observador.observe(el));
+    </script>
+</body>
+
+</html>
